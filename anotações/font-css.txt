@@ -1,0 +1,40 @@
+font-family: Arial, Helvetica, sans-serif;
+            /*neste caso alguns dispositivos pode não reconhecer a fonte que vc escolheu com isso coloca-se desta forma que se chama "Safe combinations", onde o navegador vai tenta Arial se não acha tenta a proxima e se não acha ele coloca qualquer um que tenha e que não seja serifada*/
+
+            font-size: 1em;
+            /*Medidas absolutas:
+            cm - centimetro
+            mm - milimetro
+            in - polegada
+            px - pixel - 16px = 1em
+            pt - ponto - para material impresso em papel
+            pc - paica - para material impresso em papel
+
+            Medias relativas:
+            em - relativo ao tamanho atual da fonte
+            ex - relativo ao tamanho X de uma fonte
+            rem - relativo ao tamanho da fonte setada no "body"
+            vw - relativo ao tamanho da viewport em porcentagem
+            vh - relativo a altura da viewport em porcentagem
+
+            para fonte as normas do W3C diz que o melhor a ser usado é px e em a mais recomendado é o em, 2em é o dobro de 16px, ou seja, 32px
+            */
+            font-weight: normal;
+            /*weight é o peso da fonte, no caso se a fonte será mais fina ou mais grossa.
+            as existente são lighter, normal, bold e bolder
+            a maioria das fontes só tem normal e bold.
+            */
+            font-style: italic;
+            /* define se a fonte será italico/oblico ou normal, mais uma vez nem todas as fontes tem esses estilos disponível
+            */
+            text-decoration: underline;
+            /*este é o sublinhado*/
+
+            /*Para não precisar usar tanta linhas para as fontes vc pode usar a propriedade shorthands, porém ela tem uma ordem segue a ordem: 
+            
+            font-style > font-weight > font-size > font-family
+
+            segue exemplo...
+
+            font: italic bold 2em 'Arial, Helvetica, sans-serif';
+            */

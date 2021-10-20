@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /*@font-face é um seletor para quando vc baixa uma fonte de algum lugar*/
+
+        @font-face { /*Código abaixo esta correto mas não funciona, pesquisei em vários lugares, fiz vários testes mas mesmo assim não funciona*/
+            font-family: 'Love';
+            src: url('fonts/love larry.otf') format('opentype'), url('fonts/love larry.ttf') format("truetype");
+            font-weight: normal;
+            font-style: normal;
+            /*
+            Tipos de format:
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                - svg
+            */
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Love';
+            font-size:  3em;
+        }
+
+    </style>
+
+    <title>Fontes Externas</title>
+
+</head>
+<body>
+
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ratione deleniti expedita porro totam praesentium adipisci libero delectus soluta facilis dolorem, nemo saepe, nostrum voluptas. Dolor cumque officiis iste error!</p>
+    
+</body>
+</html>

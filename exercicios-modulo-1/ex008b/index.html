@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Outras formatações</title>
+</head>
+<body>
+
+    <h1>Outras formatações</h1>
+
+    <h2>Código-fonte / Pré formatado</h2>
+    <p>O comando <code>document.getElementById('Teste')</code> é escrito em Javascript.</p>
+
+    <p>Aqui vamos vê como inserir código no meio de um texto abaixo temos o exemplo sem formatação apenas a <strong>TAG CODE</strong>.</p>
+
+    <code>
+        num = int(input('Digite um número'))
+        if num % 2 == 0;
+            print(f'O número {num} é PAR')
+        else:
+            print(f'O número {num} é ÍMPAR')
+        print('Fim do código')
+            
+    </code>
+
+    <p>Já aqui o mesmo código porém de forma identada:</p>
+
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0;
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é ÍMPAR')
+    print('Fim do código')
+                
+        </code>
+    </pre>
+
+    <!--TAG <pre> ela faz a pré formatação e tudo que estiver nela da para ser formatado tais como se vc chega ali no "ELSE" do código e da vários Enters quando atualizar a pagina será como se tivesse colocado várias tags <br>
+    
+    tecla de atalho:
+
+    SHIFT+TAB - Seleciona o que estiver dentro da tag <pre> e vá dando TAB e veja o que ocorre, isso para o seu texto ficar mais a direita ou a esquerda da tela.-->
+
+    <h2>Citações</h2>
+
+    <p>Como diria um pai de um amigo meu: <q>O computador é um burro muito rápido</q></p>
+
+    <!--TAG <q> é para citações, basicamente ela coloca aspas-->
+    
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+
+    <blockquote cite="https://www.amazon.com.br/HTML-XHTML-CSS-para-leigos/dp/8576086972">
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote>
+
+    <!--TAG <blockquote> é usada para citações tais como frases de efeito, tipo algo foda que o Einsten falou o o Dalai Lama
+        
+    Dentro da tag <blockquote> pode colocar o parametro "cite" de citar e ali você pode colocar um link para o lugar de onde você tirou a frase/citação da pessoa, isso ajuda os mecanismos de busca do Google na hora de um usuário pesquisando a tal frase e também contribui com direitos autorais-->
+    
+    <h2>Abreviações</h2>
+
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+
+    <h2>Texto invertido</h2>
+    <p>Escrevendo coisas de trás para frente, <bdo dir="rtl">tag inutil a gente vê por aqui</bdo>.</p>
+
+    <!--usa ltr ou rtl, o rtl seria da direita para esquerda o que faz o texto/palavras ficarem invertidas-->
+</body>
+</html>

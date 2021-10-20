@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Mídias em HTML5</title>
+
+
+</head>
+<body>
+
+    <h1>Imagem Dinâmica</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum corrupti cum expedita, nulla vero labore culpa magnam consequatur, ut eaque, tempora unde voluptatum dignissimos itaque et officia deleniti incidunt debitis?</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem Flexível">
+    </picture>
+    <!--
+        A tag PICTURE permite colocar vários "source" dentro dela para setar configurações para a imagem que vc deseja.
+
+        Sempre tem uma tag IMG dentro da PICTURE
+
+        O Source midia type permite vc setar o tamanho maximo do width do seu navegador, por exemplo:
+
+        se sua tema tiver o width maximo de 1050px ele vai adicionar a imagem média, se tiver 750px como no caso de um smartphone ele vai setar a imagem pequena, como mostra o código acima.
+    -->
+
+    <h1>Reproduzindo Áudio no HTML</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nulla reiciendis recusandae iusto quas at, laboriosam, necessitatibus corrupti modi accusamus velit.</p>
+
+    <audio preload="metadata" controls> 
+        <source src="midia/global-emmit-fenn.mp3" type="audio/mpeg">
+        <source src="midia/headphones.ogg" type="audio/ogg">
+        <source src="midia/global-emmit-fenn.wav" type="audio/wav">
+
+        <p>Infelizmente seu navegador não tem suporte a este tipo de áudio, verifique se o mesmo esta atualizado ou tente em outro navegador.
+
+            Se preferir <a href="midia/headphones.mp3">clique aqui para baixar o áudio</a>
+        </p>
+    </audio>
+
+    <!--
+        Tag AUDIO acompanhada do source src permite lhe colocar áudios em seu site
+        ali no código apenas o mp3 funciona pois as demais extenções de áudio não estão disponíveis, apenas foram add como exemplo.
+
+        a extensão mais recomendada a ser usada é a .ogg por ser a menor e a menos recomendada é a .wav pois costuma ter arquivos extremamente grandes.
+
+        O parâmetro PRELOAD vem acompanhado de 3 opções auto, metadados e none.
+
+        Auto seria para que assim que a pagina carregar ele iniciar automáticamente o áudio.
+
+        Metadata é o mais recomendado pois ele só vai pegar algumas informações do arquivo mas só irá reproduzir o áudio quando o usuário der play, isso ajuda a pagina a carregar mais rápido e o áudio iniciar a reprodução mais rápido também.
+
+        O none ele não faz nada e só reproduz o áudio quando o usuário der play.
+
+        A frente de um desses vc pode colocar autoplay ou controls, o controls faz com que ele mostre os botões de play, barra de progresso e volume.
+
+    -->
+
+    <h1>Videos no HTML</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A fugit error ullam maiores sapiente quos facilis quidem tempore veritatis.</p>
+
+    
+
+</body>
+</html>
