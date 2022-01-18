@@ -1,0 +1,10 @@
+ANOTAÇÕES SOBRE background image/color
+
+background-image: url - Pode colocar tanto uma URL de alguma imagem ou pegar um caminho de uma imagem na máquina.
+
+background-size: 100px 100px; - Usa para aumentar o tamanho da imagem inserida na página.
+
+background-repeat: no-repeat; - Várias propriedades aqui, a no-repeat é usada para não repetir a imagem inserida na página, tem outras propriedades como repeat-x e repeat-y que permite repetir a imagem no eixo X ou Y. A propriedade "background-repeat" tem várias outras, mas por hora ficamos com essas.
+
+background-position - Determina o posicionamento de uma imagem de fundo.
+nele temos vários atributos também como por exemplo o "background-position: righ t op" onde a imagem irá fica no canto superior direito.
