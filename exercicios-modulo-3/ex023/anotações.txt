@@ -1,0 +1,9 @@
+Table = Tabela
+
+Table Row = linha da tabela
+    table header = cabeçalho da tabela
+    table data = dado de tabela
+
+Deve-se respeitar a hierarquia das tags da tabela
+
+Vertical-align - Permite que os dados sejam apresentado em cima, meio ou em baixo, assim como o text-align que coloca o dado a esquerda, centro e direita.
