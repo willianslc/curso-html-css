@@ -31,3 +31,9 @@ Tem tbm a propriedade row para quando os dados estão na mesma linha
 Scope costuma ser usado na tag th das tabelas
 
 Mais informações na pasta img dentro de ex023.
+====================================================================================
+
+colspan e rowspan = propriedades que faz com que uma célula na tabela se comporte de forma diferente.
+
+colspan - Faz com que uma célula ocupe duas colunas.
+rowspan - Faz com que uma célula ocupe duas linhas.
