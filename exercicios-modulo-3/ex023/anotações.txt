@@ -7,3 +7,27 @@ Table Row = linha da tabela
 Deve-se respeitar a hierarquia das tags da tabela
 
 Vertical-align - Permite que os dados sejam apresentado em cima, meio ou em baixo, assim como o text-align que coloca o dado a esquerda, centro e direita.
+=====================================================================================
+
+ANATOMIA DAS GRANDES TABELAS
+
+table
+    CAPTION ---> Legenda/subtitulo da TABELAS
+    THEAD
+        tr, td, th
+    TBODY
+        tr, td, th
+    TFOOT ---> Foot não é obrigatório nas tabelas
+        tr, td, th
+
+======================================================================================
+
+SCOPE = Serve para melhorar a indexação da tabela nos mecanismos de busca do Google e outros.
+
+Nele temos a propriedade col - serve para informar aos mecanismos de busca que os dados que vem abaixo estão em determinada coluna.
+
+Tem tbm a propriedade row para quando os dados estão na mesma linha
+
+Scope costuma ser usado na tag th das tabelas
+
+Mais informações na pasta img dentro de ex023.
