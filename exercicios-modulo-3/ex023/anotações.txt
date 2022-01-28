@@ -37,3 +37,18 @@ colspan e rowspan = propriedades que faz com que uma célula na tabela se compor
 
 colspan - Faz com que uma célula ocupe duas colunas.
 rowspan - Faz com que uma célula ocupe duas linhas.
+=====================================================================================
+
+TAG COLGROUP - Pode ser colocada no inicio da tabela, serve para selecinar/mudar cor de uma coluna toda.
+
+Dentro desta Tag usamos a tag col, acompanhadas de classes, criamos a quantidade de cols que precisamos ou a quantidade de colunas que a tabela tem.
+
+Segue ex:
+    <colgroup>
+        <col class="verde">
+        <col class="amarelo" span="2">
+        <col class="verde">
+    </colgroup>
+
+Neste caso usamos apenas 3 cols mesmo a tabela tendo 4 colunas porque estamos usando o "span" ele vai aplicar a cor amarelo na segunda e na terceira coluna, se o no span tivesse no número 3 ele iria aplicar a cor na segunda, terceira e quarta coluna da tabela.
+====================================================================================
