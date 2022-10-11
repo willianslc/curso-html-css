@@ -16,7 +16,7 @@
 <body>
 
     <h1>Começando os trabalhos com Formulários</h1>
-    <form action="cadastro.php" autocomplete="off"> <!--autocomplete desativa as sugestoes do navegador para o formulario-->
+    <form action="cadastro.php" method="post" autocomplete="off"> <!--autocomplete desativa as sugestoes do navegador para o formulario-->
 
         <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p>
 
@@ -27,5 +27,11 @@
 
     <!--no for do label sempre add o id o label serve para dizer aos mecanismos de busca que o texto (Nome) esta atrelado ao campo de add texto, tanto que ao clicar em nome o cursor aparece dentro do campo-->
     
+    <!--
+    ENVIO DE DADOS PELOS FORMULARIOS    
+    Metodo GET suporta apenas 3000bitys ou aproximadamente 3000 letres, nao recomendado para envio de fotos ou arquivos e dados sensiveis
+    
+    Para essas demandas use o metodo POST, porem evite dados sensiveis
+    -->
 </body>
 </html>
