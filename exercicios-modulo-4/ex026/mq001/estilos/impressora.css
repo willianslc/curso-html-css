@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/*Estilo para impressora*/
+
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+menu {
+    display: none; /*faz com que o menu não seja exibido*/
+}
+
+article {
+    width: 100%; /*mexe na largura do texto quando quando for imprimir*/
+}
+
+article::after {
+    content: 'Esse arquivo foi impresso atraves do site feito pelo Willian Campos';
+
+    /*Add a frase no rodapé da impressão no final do texto*/
+}
