@@ -1,3 +1,9 @@
 @charset "UTF-8";
 
-/*Configurações para quando o dispositivo estiver deitado (landscape)*/
+/*Configurações para quando o dispositivo estiver em pé (portrait)*/
+
+body {
+    background-image: url(../img/cev-portrait.jpg);
+    background-position: center bottom;
+}
+
