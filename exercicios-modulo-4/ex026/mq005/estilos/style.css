@@ -24,7 +24,7 @@ header > h1 {
 }
 
 span#burguer {
-    background-color: rgb(75, 75, 75);
+    background-color: rgb(255, 186, 102);
     color: white;
     display: block;
     text-align: center;
@@ -33,8 +33,8 @@ span#burguer {
 }
 
 span#burguer:hover {
-    background-color: white;
-    color: black;
+    background-color: rgb(230, 137, 100);
+    color: rgb(255, 228, 196);
 }
 
 menu {
@@ -52,7 +52,7 @@ menu > ul > li > a {
     text-decoration: none;
     text-align: center;
     background-color: rgb(230, 137, 100);
-    color: white;
+    color: rgb(255, 228, 196);
     border-top: 2px solid rgb(255, 228, 196);
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -69,7 +69,7 @@ main {
     margin-top: 50px;
     padding: 10px;
     border-radius: 10px;
-    color: white;
+    color: rgb(255, 228, 196);
 }
 
 article > h2 {
