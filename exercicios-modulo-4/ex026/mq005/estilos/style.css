@@ -52,7 +52,7 @@ menu > ul > li > a {
     text-decoration: none;
     text-align: center;
     background-color: rgb(230, 137, 100);
-    color: rgb(255, 228, 196);
+    color: white;
     border-top: 2px solid rgb(255, 228, 196);
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
